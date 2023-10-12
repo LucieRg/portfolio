@@ -1,0 +1,52 @@
+.contact {
+  border: 1pt solid #bcabdd;
+  border-radius: 20px;
+  box-shadow: 0pt 1pt 6pt #ffffff73;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 10px;
+}
+
+.contact h2 {
+  margin-left: 112px;
+  opacity: 1;
+}
+
+.contact-methods {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 112px;
+}
+
+.contact-method {
+  margin-right: 5px;
+  width: 50%;
+}
+.contact-form {
+  width: 40%;
+  margin-right: 112px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  border: 1pt solid #bcabdd;
+  border-radius: 20px;
+}
+::placeholder {
+  color: white;
+}

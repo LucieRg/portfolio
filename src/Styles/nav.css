@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3d1a53;
+  box-shadow: 0px 1px 2px #ffffff73;
+
+  opacity: 0.82;
+  font-size: 18px;
+  font-weight: bold;
+}
+header img {
+  margin-left: 32px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 32px;
+  gap: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-right: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo {
+  width: 4%;
+}

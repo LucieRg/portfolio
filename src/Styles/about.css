@@ -1,0 +1,37 @@
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 112px;
+ 
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.presentation button {
+    width: 45%;
+}
+
+.presentation p {
+    margin-bottom: 50px;
+}
+
+.avatar {
+    width: 25%;
+}
+
+
+.arrow-box  {
+display: flex;
+justify-content: center;
+}
+.arrow {
+    width: 3%;
+}
