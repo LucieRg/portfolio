@@ -9,6 +9,7 @@ import WPIcon from "../Assets/logos/wp.svg";
 import FigmalIcon from "../Assets/logos/figma.svg";
 
 import "../Styles/skills.css";
+import "../index.css"
 
 export default function Skills() {
   const skillsData = [
@@ -23,7 +24,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="skills">
+    <div className="skills full-page" id="skills">
       <h2>Compétences</h2>
 
       <div className="icons">

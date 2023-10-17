@@ -14,4 +14,13 @@
     background: none;
     font-size: 18px;
     font-weight: bold;
+    transition: transform 0.3s ease;
+
+
   }
+
+  .button:hover {
+    border-color: #33FFCC;
+    transform: scale(1.1);
+  }
+  

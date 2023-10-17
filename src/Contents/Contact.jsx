@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from "../Assets/logos/github.svg"; // Assurez-vous d'importer les autres logos si nécessaire
 import "../Styles/contact.css";
 import Button from "../Components/Button";
+import"../index.css"
 
 export default function Contact() {
   const contactMethods = [
@@ -11,12 +12,12 @@ export default function Contact() {
   ];
 
   return (
-    <div className="contact">
+    <div className="contact full-page" id="contact">
       <div>
         <h2>Me contacter</h2>
-        <div className="contact-methods">
+        <div className="contact-me">
           {contactMethods.map((icon, index) => (
-            <div className="contact-method" key={index}>
+            <div className="icon" key={index}>
               <img src={icon} alt={`Contact Method ${index + 1}`} />
             </div>
           ))}

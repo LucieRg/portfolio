@@ -8,7 +8,7 @@ import REACT from "../Assets/icones-projects/react.svg";
 import REDUX from "../Assets/icones-projects/redux.svg";
 import SASS from "../Assets/icones-projects/sass.svg";
 import WP from "../Assets/icones-projects/wp.svg";
-
+import "../index.css"
 
 export default function Projets() {
   const projects = [
@@ -46,7 +46,7 @@ export default function Projets() {
   ];
 
   return (
-    <div className="projets">
+    <div className="projets full-page" id="projects">
       <h2>Projets</h2>
       <div className="projects-list">
         {projects.map((project, index) => (

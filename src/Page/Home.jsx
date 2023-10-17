@@ -8,6 +8,7 @@ import "../index.css";
 import Projets from "../Contents/Projets";
 import Contact from "../Contents/Contact";
 import Footer from "../Contents/Footer";
+import ArrowButton from "../Components/ArrowButton";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Projets/>
       <Contact/>
       <Footer/>
+      <ArrowButton/>
     </main>
   );
 }

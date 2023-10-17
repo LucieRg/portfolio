@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
+import "../index.css"
 
 const Stars = () => {
   const [stars, setStars] = useState([]);
@@ -9,15 +10,17 @@ const Stars = () => {
     const size = Math.random() * 1 + "px";
     const colors = ["#ace7d3", "#72a2c6", "#e7889e", "#0d001c", "#0d001c", "#180525", "#300f2c", "#371e24"];
     const index = Math.floor(Math.random() * colors.length);
+    const topPosition = Math.random() * 100; // Position verticale aléatoire (0-100%)
+    const leftPosition = Math.random() * 100; // Position horizontale aléatoire (0-100%)
 
     const Star = styled.span`
-      position: absolute;
+      position: fixed;
       border-radius: 50%;
       height: ${size};
       width: ${size};
       background: ${colors[index]};
-      top: ${Math.random() * 100}%;
-      left: ${Math.random() * 100}%;
+      top: ${topPosition}%;
+      left: ${leftPosition}%; 
     `;
 
     let star = <Star key={Math.random()} />;
@@ -57,9 +60,9 @@ const ShootingStarGenerator = ({ setShootingStars }) => {
     const transformY = Math.random() * 100 - 50; // Valeur aléatoire pour l'axe Y (haut ou bas)
 
     const ShootingStarContainer = styled.div`
-      position: absolute;
+      position: fixed;
       top: ${topPosition}%;
-      left: ${leftPosition}%; /* Position aléatoire sur l'axe horizontal */
+      left: ${leftPosition}%; 
     `;
 
     const shootingStarKeyframes = keyframes`

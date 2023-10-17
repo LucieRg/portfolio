@@ -1,11 +1,10 @@
 .projets {
-    margin-left: 112px;
-    margin-bottom: 112px;
+margin-left: 112px;
 }
 
 .project-card {
-  margin-top: 90px;
     display: flex;
+    margin-top: 50px;
    flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,9 +27,6 @@
   }
   
 .projects-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
 }

@@ -1,27 +1,26 @@
 .contact {
-  border: 1pt solid #bcabdd;
-  border-radius: 20px;
+  border-top: 1pt solid #bcabdd;
+  border-bottom: 1pt solid #bcabdd;
   box-shadow: 0pt 1pt 6pt #ffffff73;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .contact h2 {
   margin-left: 112px;
   opacity: 1;
+  margin-top: 100px;
 }
 
-.contact-methods {
+.contact-me {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   margin-left: 112px;
 }
 
-.contact-method {
+.icon {
   margin-right: 5px;
   width: 50%;
 }
@@ -45,8 +44,19 @@ textarea {
   width: 100%;
   padding: 10px;
   border: 1pt solid #bcabdd;
-  border-radius: 20px;
+  border-radius: 15px;
 }
+
+
 ::placeholder {
   color: white;
+}
+.form-group button {
+  margin-top: 20px;
+}
+input:focus, 
+textarea:focus, 
+select:focus {
+  border: 2px solid #33FFCC;
+  /* Autres styles que vous souhaitez appliquer lorsque le champ est sélectionné */
 }
