@@ -15,10 +15,13 @@ footer {
   .icon {
     width: 3%;
     margin-left: 20px;
-     
+    transition: transform 0.3s ease;
+
   }
   .icon:hover {
     transform: scale(1.1);
+    transform: rotate(360deg);
+
   }
   
   .footer p {

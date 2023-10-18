@@ -5,6 +5,7 @@ import "../Styles/about.css";
 import "../index.css";
 import Typewriter from "typewriter-effect";
 import Arrow from "../Assets/triangle.svg";
+import cvPDF from "../Assets/CVLR.pdf";
 
 export default function About() {
   const [isHidden, setIsHidden] = useState(true);
@@ -12,11 +13,16 @@ export default function About() {
   useEffect(() => {
     setTimeout(() => {
       setIsHidden(false);
-    }, 100); // Vous pouvez ajuster la durée en millisecondes
+    }, 100);
   }, []);
 
+
+
   return (
-    <div className={`full-page about-transition ${isHidden ? "hidden" : ""}`} id="about">
+    <div
+      className={`full-page about-transition ${isHidden ? "hidden" : ""}`}
+      id="about"
+    >
       <section className="about">
         <div className="presentation">
           <h1>
@@ -33,15 +39,17 @@ export default function About() {
             />
           </h1>
           <p>
-            J'ai consolidé mes compétences en suivant
-            une formation intensive chez OpenClassrooms. Ma spécialité réside
-            dans le développement d'interfaces utilisateur dynamiques et
-            interactives, en mettant en œuvre des technologies telles que
-            JavaScript, React, et Redux. Je suis passionnée par la création
-            d'expériences utilisateur exceptionnelles et je suis toujours prête
-            à relever de nouveaux défis pour rendre le web plus innovant.
+            J'ai consolidé mes compétences en suivant une formation intensive
+            chez OpenClassrooms. Ma spécialité réside dans le développement
+            d'interfaces utilisateur dynamiques et interactives, en mettant en
+            œuvre des technologies telles que JavaScript, React, et Redux. Je
+            suis passionnée par la création d'expériences utilisateur
+            exceptionnelles et je suis toujours prête à relever de nouveaux
+            défis pour rendre le web plus innovant.
           </p>
-          <Button label="Télécharger mon CV" className="button" />
+          <button className="button" onClick={()=> window.open(cvPDF)}>
+            Télécharger mon CV
+          </button>
         </div>
 
         <img src={Avatar} className="avatar" alt="avatar Lucie Rogé" />
@@ -52,3 +60,4 @@ export default function About() {
     </div>
   );
 }
+/* <Button label="Télécharger mon CV" className="button" onClick={openPdfViewer} />*/

@@ -16,6 +16,16 @@
     margin-top: 90px;
     margin-right: 112px;
 
+
+}
+
+.icons img:hover{
+    transition: transform 0.8s ease;
+
+}
+.icons img:hover {
+    transform: rotate(360deg);
+    
 }
 .icon-container {
    text-align: center;
@@ -25,7 +35,6 @@
 }
 
 .icon-container:hover {
-    transform: scale(1.1);
-    text-shadow: 0px 0px 1px #33FFCC;
+      text-shadow: 0px 0px 1px #33FFCC;
 }
 

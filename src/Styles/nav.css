@@ -21,6 +21,7 @@ nav {
   align-items: center;
   margin-right: 32px;
   gap: 20px;
+  cursor: pointer;
 }
 nav ul {
   list-style: none;
@@ -29,6 +30,7 @@ nav ul {
 
 nav li:hover {
   transform: scale(1.1);
+
 
 }
 nav li {

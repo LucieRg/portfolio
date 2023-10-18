@@ -3,9 +3,9 @@ import "../Styles/projets.css"
 
 
 
-const ProjectCard = ({ title, subtitle, languages }) => {
+const ProjectCard = ({ title, subtitle, languages, onClick }) => {
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={onClick}>
       <h3>{title}</h3>
       <p>{subtitle}</p>
       <div className="languages">

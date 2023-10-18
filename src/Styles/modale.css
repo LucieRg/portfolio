@@ -1,0 +1,48 @@
+.modale-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #180525;
+  border-radius: 70px;
+}
+
+.modale-img {
+  margin-top: 10px;
+
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+.modale-txt {
+  margin-top: 30px;
+  width: 90%;
+}
+.bold-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.ReactModal__Content {
+  border-radius: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 99%;
+  border: 1px solid #bcabdd;
+  box-shadow: 0px 2px 6px #ffffff73;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 23px;
+  color: #bcabdd;
+}
+.icon-position {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.icon-position a {
+    width: 50px;
+}

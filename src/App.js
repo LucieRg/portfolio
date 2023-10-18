@@ -1,9 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './index.css';
-
+import React from 'react';
+import  Modal  from 'react-modal';
 import Loader from './Page/Loader';
 import Home from "./Page/Home";
+
+Modal.setAppElement('#root');
 
 
 function App() {
