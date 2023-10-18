@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Events } from "react-scroll";
 import HTMLIcon from "../Assets/logos/html5.svg";
 import CSSIcon from "../Assets/logos/css3.svg";
 import JSIcon from "../Assets/logos/js.svg";
@@ -7,9 +8,8 @@ import ReduxIcon from "../Assets/logos/redux.svg";
 import SASSIcon from "../Assets/logos/sass.svg";
 import WPIcon from "../Assets/logos/wp.svg";
 import FigmalIcon from "../Assets/logos/figma.svg";
-
 import "../Styles/skills.css";
-import "../index.css"
+import "../index.css";
 
 export default function Skills() {
   const skillsData = [
@@ -23,8 +23,41 @@ export default function Skills() {
     { name: "Figma", icon: FigmalIcon },
   ];
 
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const skillsSection = document.getElementById("skills");
+      const skillsSectionTop = skillsSection.offsetTop;
+      const skillsSectionHeight = skillsSection.clientHeight;
+      const viewportHeight = window.innerHeight;
+      const scrollPosition = window.scrollY;
+
+      if (
+        scrollPosition >= skillsSectionTop - viewportHeight / 2 &&
+        scrollPosition <= skillsSectionTop + skillsSectionHeight
+      ) {
+        setAnimate(true);
+        Events.scrollEvent.remove("begin");
+      }
+    };
+
+    Events.scrollEvent.register("begin", () => {
+      handleScroll();
+    });
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      Events.scrollEvent.remove("begin");
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+
+
   return (
-    <div className="skills full-page" id="skills">
+    <div className={`skills full-page ${animate ? "animated" : ""}`} id="skills">
       <h2>Compétences</h2>
 
       <div className="icons">

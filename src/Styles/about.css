@@ -2,39 +2,52 @@ h1 {
   font-size: 32px;
   font-weight: bold;
 }
+.hidden {
+opacity:0 ;}
+
 .about {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 112px;
+  
 }
+.about-transition {
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
 .presentation {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 55%;
   justify-content: center;
 }
-
-.presentation button {
-  width: 45%;
-}
-
 .presentation p {
+  width: 80%;
   margin-bottom: 50px;
 }
 
+.presentation button {
+  width: 36%;
+}
+
+
+
 .avatar {
   width: 20%;
+  margin-bottom: 85px;
+  
 }
 
 .arrow-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 138px;
+  margin-top: 70px;
+  margin-bottom: 80px;
 }
 .arrow {
   width: 3%;
-  padding-top: 70px;
+  
 }
 
 

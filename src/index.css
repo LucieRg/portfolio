@@ -12,6 +12,8 @@ body {
   color: #f1eff7;
   background: linear-gradient(#0d001c, #0d001c,#0d001c,#0d001c, #180525,#180525,#180525, #300f2c);
   transition-duration: 0.8s;
+  max-width: 1440px;
+  margin: auto;
 
 }
 
@@ -51,22 +53,31 @@ background-color: #0d001c;
 }
 
 .arrow-button img {
-  transform: rotate(180deg); 
   width: 30px; 
+  transition: transform 0.5s ease;
 }
 
+.arrow-button:hover img {
+  transform: rotate(360deg);
+}
 
 
 .arrow-button.bounce {
   animation: bounce 1s infinite;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 
 .full-page {
-  width: 100%;
       height: 100vh;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
   }
   

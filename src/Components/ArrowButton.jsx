@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Arrow from "../Assets/Polygone 1.svg";
+import Arrow from "../Assets/triangle-2.svg";
 
 export default function ArrowButton() {
   const [showArrow, setShowArrow] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => {
       // Obtenir la position actuelle de la fenêtre lors du défilement
       const scrollPosition = window.scrollY;

@@ -1,35 +1,32 @@
 .contact {
-  border-top: 1pt solid #bcabdd;
-  border-bottom: 1pt solid #bcabdd;
-  box-shadow: 0pt 1pt 6pt #ffffff73;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 30px;
+ margin-left: 112px;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ opacity: 0;
+
 }
 
-.contact h2 {
-  margin-left: 112px;
+.contact.animated {
   opacity: 1;
-  margin-top: 100px;
+  transform: translateY(20px); 
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.contact-me {
-  display: flex;
-  align-items: center;
-  margin-left: 112px;
-}
 
-.icon {
-  margin-right: 5px;
-  width: 50%;
-}
+
 .contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+form{
   width: 40%;
-  margin-right: 112px;
 }
 
 .form-group {
+  
   margin-bottom: 20px;
 }
 
@@ -49,6 +46,7 @@ textarea {
 
 
 ::placeholder {
+  font-family: heebo;
   color: white;
 }
 .form-group button {
@@ -60,3 +58,4 @@ select:focus {
   border: 2px solid #33FFCC;
   /* Autres styles que vous souhaitez appliquer lorsque le champ est sélectionné */
 }
+

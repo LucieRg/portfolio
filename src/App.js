@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 import './index.css';
 
 import Loader from './Page/Loader';

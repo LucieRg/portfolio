@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Components/Button";
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll"; // Importez les composants de react-scroll
 import "../Styles/nav.css";
 import "../Styles/button.css";
 import Logo from "../Assets/logo.svg";
@@ -41,33 +42,24 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <a
-              href="#about"
-              className={highlightedLink === "about" ? "active" : ""}
-            >
+            <Link to="about" spy={true} smooth={true} duration={500} offset={-70} className={highlightedLink === "about" ? "active" : ""}>
               À propos
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#skills"
-              className={highlightedLink === "skills" ? "active" : ""}
-            >
+            <Link to="skills" spy={true} smooth={true} duration={500} offset={-70} className={highlightedLink === "skills" ? "active" : ""}>
               Compétences
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#projects"
-              className={highlightedLink === "projects" ? "active" : ""}
-            >
+            <Link to="projects" spy={true} smooth={true} duration={500} offset={-70} className={highlightedLink === "projects" ? "active" : ""}>
               Projets
-            </a>
+            </Link>
           </li>
         </ul>
-        <a href="#contact">
+        <Link to="contact" spy={true} smooth={true} duration={500}>
           <Button label="Contact" className="button" />
-        </a>
+        </Link>
       </nav>
     </header>
   );
