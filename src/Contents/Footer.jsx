@@ -31,7 +31,7 @@ export default function Footer() {
           <img src={method.icon} alt={method.alt} />
         </a>
       ))}
-      <p>Developed by Lucie Rogé</p>
+      <p>Developped by Lucie Rogé</p>
     </footer>
   );
 }
