@@ -4,7 +4,7 @@ import Nav from "../Contents/Nav";
 import About from "../Contents/About";
 import Skills from "../Contents/Skills";
 
-import "../index.css";
+import "../index.scss";
 import Projets from "../Contents/Projets";
 import Contact from "../Contents/Contact";
 import Footer from "../Contents/Footer";

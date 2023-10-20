@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Rive from "@rive-app/react-canvas";
 import { useNavigate } from 'react-router-dom'; 
 import Rocket from "../Assets/rocket.riv"
-import "../index.css"
+import "../index.scss"
 
 export default function Loader() {
   const [showAnimation, setShowAnimation] = useState(true);

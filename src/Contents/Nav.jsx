@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Components/Button";
-import { Link,  animateScroll  } from "react-scroll"; // Importez les composants de react-scroll
-import "../Styles/nav.css";
-import "../Styles/button.css";
+import { Link } from "react-scroll";
+import "../Styles/nav.scss";
+import "../Styles/button.scss";
 import Logo from "../Assets/logo.svg";
 
 export default function Nav() {
@@ -36,30 +36,66 @@ export default function Nav() {
     };
   }, []);
 
+  const [showLinks, setShowLinks] = useState(false);
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   return (
     <header>
       <img src={Logo} className="logo" alt="Logo" />
-      <nav>
-        <ul>
-          <li>
-            <Link to="about" spy={true} duration={500} offset={-70} className={highlightedLink === "about" ? "active" : ""}>
+      <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+        <ul className="navbar-links">
+          <li className="navbar-items">
+            <Link
+              to="about"
+              spy={true}
+              duration={500}
+              offset={-70}
+              className={highlightedLink === "about" ? "active" : ""}
+              onClick={handleShowLinks}
+            >
               À propos
             </Link>
           </li>
-          <li>
-            <Link to="skills" spy={true}  duration={500} offset={-70} className={highlightedLink === "skills" ? "active" : ""}>
+          <li className="navbar-items">
+            <Link
+              to="skills"
+              spy={true}
+              duration={500}
+              offset={-70}
+              className={highlightedLink === "skills" ? "active" : ""}
+              onClick={handleShowLinks}
+            >
               Compétences
             </Link>
           </li>
-          <li>
-            <Link to="projects" spy={true}  duration={500} offset={-70} className={highlightedLink === "projects" ? "active" : ""}>
+          <li className="navbar-items">
+            <Link
+              to="projects"
+              spy={true}
+              duration={500}
+              offset={-70}
+              className={highlightedLink === "projects" ? "active" : ""}
+              onClick={handleShowLinks}
+            >
               Projets
             </Link>
           </li>
+          <li className="navbar-items">
+            <Link
+              to="contact"
+              spy={true}
+              duration={500}
+              onClick={handleShowLinks}
+            >
+              <Button label="Contact" className=" button" />
+            </Link>
+          </li>
         </ul>
-        <Link to="contact" spy={true}  duration={500}>
-          <Button label="Contact" className="button" />
-        </Link>
+        <button className="burger" onClick={handleShowLinks}>
+          <span className="burger-bar"></span>
+        </button>
       </nav>
     </header>
   );

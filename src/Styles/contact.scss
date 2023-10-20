@@ -1,0 +1,80 @@
+.contact {
+  margin-left: 112px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+
+  &.animated {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  form {
+    width: 40%;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    border: 1pt solid #bcabdd;
+    border-radius: 15px;
+
+    &::placeholder {
+      font-family: heebo;
+      color: white;
+    }
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border: 2px solid #33FFCC;
+  }
+}
+/* Styles pour les écrans mobiles (max-width: 767px) */
+
+@media (max-width: 767px) {
+  .contact {
+    margin-left: 0; 
+    
+    h2 {
+      margin-left: 32px;
+    }
+
+ 
+  }
+
+  .contact-form {
+    margin-top: 20px; 
+
+    form {
+      width: 80%; 
+    }
+  }
+
+  
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Events } from "react-scroll";
-import "../Styles/skills.css";
-import "../index.css";
+import "../Styles/skills.scss";
+import "../index.scss";
 import skillsData from "../Datas/SkillsData";
 export default function Skills() {
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import "../index.css"
+import "../index.scss"
 
 const Stars = () => {
   const [stars, setStars] = useState([]);

@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-import "../Styles/contact.css";
+import "../Styles/contact.scss";
 import Button from "../Components/Button";
-import "../index.css";
+import "../index.scss";
 
 export default function Contact() {
   const { register, handleSubmit, formState, reset } = useForm();

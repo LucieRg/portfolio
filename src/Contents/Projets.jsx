@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "../Styles/projets.css";
+import "../Styles/projets.scss";
 import Modale from "../Components/Modale";
 import ProjectCard from "../Components/ProjectCard";
 import ProjectsData from "../Datas/ProjectsDatas";
-import "../index.css";
+import "../index.scss";
 
 export default function Projets() {
   const [modalIsOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import './index.css';
+import './index.scss';
 import React from 'react';
 import  Modal  from 'react-modal';
 import Loader from './Page/Loader';

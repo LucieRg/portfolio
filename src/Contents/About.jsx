@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Button from "../Components/Button";
 import Avatar from "../Assets/avatar.svg";
-import "../Styles/about.css";
-import "../index.css";
+import "../Styles/about.scss";
+import "../index.scss";
 import Typewriter from "typewriter-effect";
 import Arrow from "../Assets/triangle.svg";
 import cvPDF from "../Assets/CVLR.pdf";
@@ -42,13 +41,11 @@ export default function About() {
             J'ai consolidé mes compétences en suivant une formation intensive
             chez OpenClassrooms. Ma spécialité réside dans le développement
             d'interfaces utilisateur dynamiques et interactives, en mettant en
-            œuvre des technologies telles que JavaScript, React, et Redux. Je
-            suis passionnée par la création d'expériences utilisateur
-            exceptionnelles et je suis toujours prête à relever de nouveaux
+            œuvre des technologies telles que JavaScript, React, et Redux. Je suis toujours prête à relever de nouveaux
             défis pour rendre le web plus innovant.
           </p>
           <button className="button" onClick={()=> window.open(cvPDF)}>
-            Télécharger mon CV
+            Mon CV
           </button>
         </div>
 

@@ -1,0 +1,67 @@
+.modale-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #180525;
+  border-radius: 70px;
+  overflow-y: scroll; /* Activer le défilement vertical */
+
+  .modale-img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .modale-txt {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .bold-text {
+    font-size: 18px;
+ }
+}
+
+.ReactModal__Content {
+  border-radius: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 99%;
+  border: 4px solid #bcabdd;
+  box-shadow: 0px 2px 6px #ffffff73;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 23px;
+  color: #bcabdd;
+}
+.fa-x{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 13px;
+  opacity: 0.7;
+}
+
+.icon-position {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+
+  a {
+    width: 50px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+ .modale-container{
+  width: 90%;
+  height: 90%;
+  margin-top: 30px;
+ }
+
+}
+
+

@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import "../Styles/modale.css";
+import "../Styles/modale.scss";
 import GITHUB from "../Assets/logos/github.svg"
 
 const Modale = ({ isOpen, onRequestClose, project }) => {
@@ -24,13 +24,13 @@ const Modale = ({ isOpen, onRequestClose, project }) => {
         <i
           className="fa-solid fa-x"
           onClick={onRequestClose} 
-          style={{ cursor: "pointer", alignSelf: "flex-end", margin: "15px" }}
+          style={{ cursor: "pointer", alignSelf: "flex-end", }}
         ></i>
         <img className="modale-img" src={project.img} alt="Image du site" />
         <p className="modale-txt">
-          <span className="bold-text">Présentation:</span> {project.presentation}
+          <span className="bold-text">Présentation</span> <br/>{project.presentation}
         </p>
-        <p className="modale-txt "> <span className="bold-text">Objectifs:</span> {project.objectifs}</p>
+        <p className="modale-txt "> <span className="bold-text">Objectifs</span> <br/>{project.objectifs}</p>
 
         <div className="icon-position">
         {project.github && (
