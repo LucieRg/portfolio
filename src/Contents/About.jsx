@@ -4,7 +4,7 @@ import "../Styles/about.scss";
 import "../index.scss";
 import Typewriter from "typewriter-effect";
 import Arrow from "../Assets/triangle.svg";
-import cvPDF from "../Assets/CVLR.pdf";
+import cvPDF from "../Assets/CV-LR.pdf";
 
 export default function About() {
   const [isHidden, setIsHidden] = useState(true);
