@@ -7,16 +7,15 @@ import SASSIcon from "../Assets/logos/sass.svg";
 import WPIcon from "../Assets/logos/wp.svg";
 import FigmalIcon from "../Assets/logos/figma.svg";
 
-
 const skillsData = [
-    { name: "HTML5", icon: HTMLIcon },
-    { name: "CSS3", icon: CSSIcon },
-    { name: "JavaScript", icon: JSIcon },
-    { name: "React", icon: ReactIcon },
-    { name: "Redux", icon: ReduxIcon },
-    { name: "SASS", icon: SASSIcon },
-    { name: "WordPress", icon: WPIcon },
-    { name: "Figma", icon: FigmalIcon },
-  ];
+  { name: "HTML5", icon: HTMLIcon },
+  { name: "CSS3", icon: CSSIcon },
+  { name: "JavaScript", icon: JSIcon },
+  { name: "React", icon: ReactIcon },
+  { name: "Redux", icon: ReduxIcon },
+  { name: "SASS", icon: SASSIcon },
+  { name: "WordPress", icon: WPIcon },
+  { name: "Figma", icon: FigmalIcon },
+];
 
-  export default skillsData
+export default skillsData;

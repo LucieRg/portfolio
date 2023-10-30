@@ -1,7 +1,5 @@
-import React from 'react';
-import "../Styles/projets.scss"
-
-
+import React from "react";
+import "../Styles/projets.scss";
 
 const ProjectCard = ({ title, subtitle, languages, onClick }) => {
   return (
@@ -9,8 +7,8 @@ const ProjectCard = ({ title, subtitle, languages, onClick }) => {
       <h3>{title}</h3>
       <p>{subtitle}</p>
       <div className="languages">
-        {languages.map((language, index) => (
-          <img key={index} src={language} alt={`Logo ${language}`} />
+        {languages.map((language, id) => (
+          <img key={id} src={language} alt={`Logo ${language}`} />
         ))}
       </div>
     </div>

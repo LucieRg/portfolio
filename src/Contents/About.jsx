@@ -15,8 +15,6 @@ export default function About() {
     }, 100);
   }, []);
 
-
-
   return (
     <div
       className={`full-page about-transition ${isHidden ? "hidden" : ""}`}
@@ -41,10 +39,11 @@ export default function About() {
             J'ai consolidé mes compétences en suivant une formation intensive
             chez OpenClassrooms. Ma spécialité réside dans le développement
             d'interfaces utilisateur dynamiques et interactives, en mettant en
-            œuvre des technologies telles que JavaScript, React, et Redux. Je suis toujours prête à relever de nouveaux
-            défis pour rendre le web plus innovant.
+            œuvre des technologies telles que JavaScript, React, et Redux. Je
+            suis toujours prête à relever de nouveaux défis pour rendre le web
+            plus innovant.
           </p>
-          <button className="button" onClick={()=> window.open(cvPDF)}>
+          <button className="button" onClick={() => window.open(cvPDF)}>
             Mon CV
           </button>
         </div>
@@ -57,4 +56,3 @@ export default function About() {
     </div>
   );
 }
-/* <Button label="Télécharger mon CV" className="button" onClick={openPdfViewer} />*/

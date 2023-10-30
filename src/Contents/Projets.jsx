@@ -9,8 +9,6 @@ export default function Projets() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-
-
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -53,9 +51,9 @@ export default function Projets() {
     >
       <h2>Projets</h2>
       <div className="projects-list">
-        {ProjectsData.map((project, index) => (
+        {ProjectsData.map((project, id) => (
           <ProjectCard
-            key={index}
+            key={id}
             title={project.title}
             subtitle={project.subtitle}
             languages={project.languages}
