@@ -14,7 +14,7 @@ export default function Contact() {
   const sendEmail = (data) => {
     emailjs
       .sendForm(
-        "service_318tayy",
+        "service_2t9pvjc",
         "template_0iywzca",
         form.current,
         "72BvHwdsGSgYzgCsM"
@@ -55,7 +55,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <div className={`contact${animate ? " animated" : ""}`} id="contact">  
+    <div className={`contact${animate ? " animated" : ""}`} id="contact">
       <h2>Me contacter</h2>
       <div className="contact-form">
         <form ref={form} onSubmit={handleSubmit(sendEmail)}>
