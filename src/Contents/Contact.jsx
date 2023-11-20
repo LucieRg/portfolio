@@ -17,7 +17,7 @@ export default function Contact() {
         "service_23ypn6v",
         "template_0iywzca",
         form.current,
-        "72BvHwdsGSgYzgCsM"
+        "J-tLuBp1972DpUMNm"
       )
       .then(
         (result) => {
