@@ -14,7 +14,7 @@ export default function Contact() {
   const sendEmail = (data) => {
     emailjs
       .sendForm(
-        "service_2t9pvjc",
+        "service_23ypn6v",
         "template_0iywzca",
         form.current,
         "72BvHwdsGSgYzgCsM"
