@@ -4,6 +4,7 @@ import Modale from "../Components/Modale";
 import ProjectCard from "../Components/ProjectCard";
 import ProjectsData from "../Datas/ProjectsDatas";
 import "../index.scss";
+import GitHubIcon from "../Assets/logos/github.svg";
 
 export default function Projets() {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -61,10 +62,15 @@ export default function Projets() {
           />
         ))}
       </div>
-      <p className="projets-text">
-        *N'hésitez pas à jeter un coup d'oeil à mon github pour voir tous mes
-        projets!
-      </p>
+
+      <a
+        href="https://github.com/LucieRg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={GitHubIcon} alt="GitHub" className="logo-github" />
+        <p>Retrouvez tous mes projets sur Github</p>
+      </a>
 
       {selectedProject && (
         <Modale

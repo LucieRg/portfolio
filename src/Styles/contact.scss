@@ -52,29 +52,27 @@
   input:focus,
   textarea:focus,
   select:focus {
-    border: 2px solid #33FFCC;
+    border: 2px solid #33ffcc;
   }
 }
 /* Styles pour les écrans mobiles (max-width: 767px) */
 
 @media (max-width: 767px) {
   .contact {
-    margin-left: 0; 
-    
+    margin-left: 0;
+
     h2 {
+      margin-top: 70px;
       margin-left: 32px;
     }
-
- 
   }
 
   .contact-form {
-    margin-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 100px;
 
     form {
-      width: 80%; 
+      width: 80%;
     }
   }
-
-  
 }

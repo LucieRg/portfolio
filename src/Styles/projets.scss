@@ -5,7 +5,7 @@
   h2 {
     margin-left: 112px;
   }
-  
+
   &.animated {
     opacity: 1;
     transform: translateX(0);
@@ -17,6 +17,25 @@
     margin-top: 80px;
     opacity: 0.55;
     font-style: italic;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 112px;
+    p {
+      width: 100%;
+      font-style: italic;
+      text-decoration: none;
+      color: #f1eff7;
+    }
+    .logo-github {
+      width: 4%;
+    }
   }
 
   .project-card {
@@ -35,7 +54,7 @@
 
     &:hover {
       transform: scale(1.1);
-      border-color: #33FFCC;
+      border-color: #33ffcc;
     }
 
     .languages {
@@ -57,22 +76,25 @@
     flex-wrap: wrap;
     gap: 50px;
   }
-
-
 }
-
 
 @media (max-width: 767px) {
   .projets {
-     h2 {
+    h2 {
       margin-left: 32px;
-     }
+    }
     .projets-text {
       margin: 0;
       margin-top: 40px;
       margin-left: 32px;
     }
-
-
+  }
+  .logo-github {
+    width: 10% !important;
+  }
+  a {
+    margin: 0 !important;
+    margin-left: 32px !important;
+    margin-top: 30px !important;
   }
 }
