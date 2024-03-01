@@ -31,7 +31,7 @@ export default function Footer() {
           <img src={method.icon} alt={method.alt} />
         </a>
       ))}
-      <p>2024 © Lr Developpement. Tous droits réservés</p>
+      <p>2024 © Lr Developpement</p>
     </footer>
   );
 }

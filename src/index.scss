@@ -5,13 +5,20 @@ body {
   font-weight: 400;
   color-scheme: light dark;
   color: #f1eff7;
-  background: linear-gradient(#0d001c, #0d001c, #0d001c, #0d001c, #180525, #180525, #180525, #300f2c);
+  background: linear-gradient(
+    #0d001c,
+    #0d001c,
+    #0d001c,
+    #0d001c,
+    #180525,
+    #180525,
+    #180525,
+    #300f2c
+  );
   transition-duration: 0.8s;
   max-width: 1440px;
   margin: auto;
 }
-
-
 
 .loader {
   position: absolute;
