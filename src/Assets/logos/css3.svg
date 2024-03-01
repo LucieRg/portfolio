@@ -1,9 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93">
-  <g id="Groupe_2" data-name="Groupe 2" transform="translate(-517 -1332)">
-    <path id="css3-alt" d="M0,32,3.9,76.174,21.429,82l17.533-5.826L42.857,32Zm34.944,8.929-.536,5.279L21.54,51.71l-.033.011H33.951L32.522,68.083l-10.96,3.2L10.536,68.027l-.714-8.248h5.458l.357,4.275,5.871,1.484,6.1-1.719.413-6.875-18.56-.056v-.011l-.022.011-.4-5.167,12.511-5.212.725-.3H8.56l-.647-5.279Z" transform="translate(543 1322)" fill="#bcabdd"/>
-    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(517 1332)" fill="none" stroke="#bcabdd" stroke-width="2">
-      <rect width="93" height="93" rx="28" stroke="none"/>
-      <rect x="1" y="1" width="91" height="91" rx="27" fill="none"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93 93" style="enable-background:new 0 0 93 93;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BCABDD;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#BCABDD;stroke-width:2;}
+</style>
+<g id="Groupe_2" transform="translate(-517 -1332)">
+	<path id="css3-alt" class="st0" d="M543,1354l3.9,44.2l17.5,5.8l17.5-5.8l3.9-44.2H543z M577.9,1362.9l-0.5,5.3l-12.9,5.5l0,0H577
+		l-1.4,16.4l-11,3.2l-11-3.3l-0.7-8.2h5.5l0.4,4.3l5.9,1.5l6.1-1.7l0.4-6.9l-18.6-0.1v0l0,0l-0.4-5.2l12.5-5.2l0.7-0.3h-13.7
+		l-0.6-5.3L577.9,1362.9z"/>
+	<g id="Rectangle_6" transform="translate(517 1332)">
+		<path class="st1" d="M28,0h37c15.5,0,28,12.5,28,28v37c0,15.5-12.5,28-28,28H28C12.5,93,0,80.5,0,65V28C0,12.5,12.5,0,28,0z"/>
+		<path class="st2" d="M28,1h37c14.9,0,27,12.1,27,27v37c0,14.9-12.1,27-27,27H28C13.1,92,1,79.9,1,65V28C1,13.1,13.1,1,28,1z"/>
+	</g>
+</g>
 </svg>

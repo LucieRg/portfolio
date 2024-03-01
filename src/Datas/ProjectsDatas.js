@@ -89,7 +89,7 @@ const ProjectsData = [
       "Amazone est un centre bilingue pour l’égalité de genre, situé au cœur de Bruxelles. Il soutient les organisations engagées pour l’égalité au quotidien",
     objectifs:
       "Pour la refonte entière de leur site internet, l'asbl Amazone m'a engagée pour remplacer la personne qui s'est occupée du developpement du site. Mes missions étaient de revoir les mises en pages et de rendre le site totalement responsive. J'ai dû égalemement m'occuper de la création des pages pour les traductions en néerlandais et en Anglais. Le site n'est pas encore officiellement publié.",
-    site: "",
+    site: "https://new.amazone.be/",
   },
 ];
 

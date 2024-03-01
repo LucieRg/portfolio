@@ -5,7 +5,7 @@ import ReactIcon from "../Assets/logos/react.svg";
 import ReduxIcon from "../Assets/logos/redux.svg";
 import SASSIcon from "../Assets/logos/sass.svg";
 import WPIcon from "../Assets/logos/wp.svg";
-import FigmalIcon from "../Assets/logos/figma.svg";
+import TSIcon from "../Assets/logos/ts.svg";
 
 const skillsData = [
   { name: "HTML5", icon: HTMLIcon },
@@ -15,7 +15,7 @@ const skillsData = [
   { name: "Redux", icon: ReduxIcon },
   { name: "SASS", icon: SASSIcon },
   { name: "WordPress", icon: WPIcon },
-  { name: "Figma", icon: FigmalIcon },
+  { name: "TypeScript", icon: TSIcon },
 ];
 
 export default skillsData;
