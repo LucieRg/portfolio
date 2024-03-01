@@ -5,12 +5,15 @@ import REACT from "../Assets/icones-projects/react.svg";
 import REDUX from "../Assets/icones-projects/redux.svg";
 import SASS from "../Assets/icones-projects/sass.svg";
 import WP from "../Assets/icones-projects/wp.svg";
+import TW from "../Assets/icones-projects/tw.svg";
 import booki from "../Assets/banner/banner_booki.png";
 import OMF from "../Assets/banner/banner_ohmyfood.png";
 import SB from "../Assets/banner/banner_sophieBluel.png";
 import kasa from "../Assets/banner/banner_kasa.png";
 import AB from "../Assets/banner/banner_argent.png";
 import amazone from "../Assets/banner/amazone.png";
+import TheSmartIde from "../Assets/banner/ThesmartIDE.png";
+
 const ProjectsData = [
   {
     id: 1,
@@ -86,10 +89,21 @@ const ProjectsData = [
     languages: [WP],
     img: [amazone],
     presentation:
-      "Amazone est un centre bilingue pour l’égalité de genre, situé au cœur de Bruxelles. Il soutient les organisations engagées pour l’égalité au quotidien",
+      "Amazone est un centre bilingue pour l’égalité de genre, situé au cœur de Bruxelles. Il soutient les organisations engagées pour l’égalité au quotidien.",
     objectifs:
       "Pour la refonte entière de leur site internet, l'asbl Amazone m'a engagée pour remplacer la personne qui s'est occupée du developpement du site. Mes missions étaient de revoir les mises en pages et de rendre le site totalement responsive. J'ai dû égalemement m'occuper de la création des pages pour les traductions en néerlandais et en Anglais. Le site n'est pas encore officiellement publié.",
     site: "https://new.amazone.be/",
+  },
+  {
+    id: 7,
+    title: "ThesmartIDE",
+    subtitle: "Éditeur de code avec React",
+    languages: [JS, REACT, REDUX, TW],
+    img: [TheSmartIde],
+    presentation: "thesmartIDE est une éditeur de code en ligne.",
+    objectifs:
+      "L'objectif était de créer un éditeur de code en ligne avec React, pour coder directement sur le navigateur. ",
+    site: "https://lucierg.github.io/The-smartIDE/",
   },
 ];
 
