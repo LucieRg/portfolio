@@ -1,15 +1,20 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #3d1a53;
-  box-shadow: 0px 1px 2px #ffffff73;
+  box-shadow: 0px 1px 0px #ffffff73;
   font-size: 17px;
   font-weight: bold;
   background-color: #0d001c;
   flex-wrap: wrap;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+  }
 
   img {
     margin-left: 32px;
@@ -45,7 +50,7 @@ header {
 }
 
 .logo {
-  width: 4%;
+  width: 50px;
 }
 
 .burger {

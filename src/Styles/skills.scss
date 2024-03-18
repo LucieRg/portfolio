@@ -2,6 +2,8 @@
   margin-left: 112px;
   transform: translateX(-100%);
   transition: transform 0.5s ease-in-out;
+  max-width: 1440px;
+  margin: auto;
 
   &.animated {
     transform: translateX(0);

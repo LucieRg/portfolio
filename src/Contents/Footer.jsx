@@ -20,18 +20,20 @@ const contactMethods = [
 export default function Footer() {
   return (
     <footer className="footer">
-      {contactMethods.map((method, index) => (
-        <a
-          key={index}
-          href={method.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-        >
-          <img src={method.icon} alt={method.alt} />
-        </a>
-      ))}
-      <p>2024 © Lr Developpement</p>
+      <div className="footer">
+        {contactMethods.map((method, index) => (
+          <a
+            key={index}
+            href={method.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon"
+          >
+            <img src={method.icon} alt={method.alt} />
+          </a>
+        ))}
+        <p>2024 © Lr Developpement</p>
+      </div>
     </footer>
   );
 }

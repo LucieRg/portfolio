@@ -43,60 +43,62 @@ export default function Nav() {
 
   return (
     <header>
-      <img src={Logo} className="logo" alt="Logo" />
-      <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-        <ul className="navbar-links">
-          <li className="navbar-items">
-            <Link
-              to="about"
-              spy={true}
-              duration={500}
-              offset={-70}
-              className={highlightedLink === "about" ? "active" : ""}
-              onClick={handleShowLinks}
-            >
-              À propos
-            </Link>
-          </li>
-          <li className="navbar-items">
-            <Link
-              to="skills"
-              spy={true}
-              duration={500}
-              offset={-70}
-              className={highlightedLink === "skills" ? "active" : ""}
-              onClick={handleShowLinks}
-            >
-              Compétences
-            </Link>
-          </li>
-          <li className="navbar-items">
-            <Link
-              to="projects"
-              spy={true}
-              duration={500}
-              offset={-70}
-              className={highlightedLink === "projects" ? "active" : ""}
-              onClick={handleShowLinks}
-            >
-              Projets
-            </Link>
-          </li>
-          <li className="navbar-items">
-            <Link
-              to="contact"
-              spy={true}
-              duration={500}
-              onClick={handleShowLinks}
-            >
-              <Button label="Contact" className=" button" />
-            </Link>
-          </li>
-        </ul>
-        <button className="burger" onClick={handleShowLinks}>
-          <span className="burger-bar"></span>
-        </button>
-      </nav>
+      <div className="header">
+        <img src={Logo} className="logo" alt="Logo" />
+        <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+          <ul className="navbar-links">
+            <li className="navbar-items">
+              <Link
+                to="about"
+                spy={true}
+                duration={500}
+                offset={-70}
+                className={highlightedLink === "about" ? "active" : ""}
+                onClick={handleShowLinks}
+              >
+                À propos
+              </Link>
+            </li>
+            <li className="navbar-items">
+              <Link
+                to="skills"
+                spy={true}
+                duration={500}
+                offset={-70}
+                className={highlightedLink === "skills" ? "active" : ""}
+                onClick={handleShowLinks}
+              >
+                Compétences
+              </Link>
+            </li>
+            <li className="navbar-items">
+              <Link
+                to="projects"
+                spy={true}
+                duration={500}
+                offset={-70}
+                className={highlightedLink === "projects" ? "active" : ""}
+                onClick={handleShowLinks}
+              >
+                Projets
+              </Link>
+            </li>
+            <li className="navbar-items">
+              <Link
+                to="contact"
+                spy={true}
+                duration={500}
+                onClick={handleShowLinks}
+              >
+                <Button label="Contact" className=" button" />
+              </Link>
+            </li>
+          </ul>
+          <button className="burger" onClick={handleShowLinks}>
+            <span className="burger-bar"></span>
+          </button>
+        </nav>
+      </div>
     </header>
   );
 }
