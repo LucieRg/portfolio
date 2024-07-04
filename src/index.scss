@@ -5,16 +5,7 @@ body {
   font-weight: 400;
   color-scheme: light dark;
   color: #f1eff7;
-  background: linear-gradient(
-    #0d001c,
-    #0d001c,
-    #0d001c,
-    #0d001c,
-    #180525,
-    #180525,
-    #180525,
-    #300f2c
-  );
+  background: linear-gradient(#0d001c, #180525, #300f2c);
   transition-duration: 0.8s;
   margin: auto;
 }
@@ -31,9 +22,8 @@ h2 {
   font-size: 30px;
 }
 
-/* Styles pour la barre de défilement */
 ::-webkit-scrollbar {
-  width: 1px; /* Largeur de la barre de défilement */
+  width: 1px;
 }
 
 ::-webkit-scrollbar-track {
@@ -72,16 +62,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1440px;
-}
 
-@media (max-width: 767px) {
-  .full-page {
+  @media (max-width: 767px) {
     margin-top: 50px !important;
     height: auto;
   }
+}
 
-  .arrow-button {
+.arrow-button {
+  @media (max-width: 767px) {
     visibility: hidden;
   }
 }

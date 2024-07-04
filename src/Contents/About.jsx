@@ -4,7 +4,7 @@ import "../Styles/about.scss";
 import "../index.scss";
 import Typewriter from "typewriter-effect";
 import Arrow from "../Assets/triangle.svg";
-import cvPDF from "../Assets/CV-Lucie-Rogé.pdf";
+import cvPDF from "../Assets/CV_Lucie_Rogé.pdf";
 
 export default function About() {
   const [isHidden, setIsHidden] = useState(true);
@@ -36,12 +36,10 @@ export default function About() {
             />
           </h1>
           <p>
-            J'ai consolidé mes compétences en suivant une formation intensive
-            chez OpenClassrooms. Ma spécialité réside dans le développement
-            d'interfaces utilisateur dynamiques et interactives, en mettant en
-            œuvre des technologies telles que JavaScript, React, et Redux. Je
-            suis toujours prête à relever de nouveaux défis pour rendre le web
-            plus innovant.
+            Développeuse passionnée, j'ai une expertise en Java, JavaScript,
+            React et Angular. Curieuse et à la recherche de nouvelles
+            opportunités, je suis prête à m'investir dans des projets innovants
+            et à relever de nouveaux défis technologiques.
           </p>
           <button className="button" onClick={() => window.open(cvPDF)}>
             Mon CV
