@@ -61,6 +61,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 100px;
 
   @media (max-width: 767px) {
     margin-top: 50px !important;
