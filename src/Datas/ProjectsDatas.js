@@ -6,6 +6,7 @@ import REDUX from "../Assets/icones-projects/redux.svg";
 import SASS from "../Assets/icones-projects/sass.svg";
 import WP from "../Assets/icones-projects/wp.svg";
 import TW from "../Assets/icones-projects/tw.svg";
+import JAVA from "../Assets/icones-projects/java.svg";
 
 const ProjectsData = [
   {
@@ -66,7 +67,7 @@ const ProjectsData = [
     languages: [WP],
     presentation:
       "Amazone est un centre bilingue pour l’égalité de genre, situé au cœur de Bruxelles. Il soutient les organisations engagées pour l’égalité au quotidien. Pour la refonte entière de leur site internet, l'asbl Amazone m'a engagée pour remplacer la personne qui s'est occupée du developpement du site. Mes missions étaient de revoir les mises en pages et de rendre le site totalement responsive. J'ai dû égalemement m'occuper de la création des pages pour les traductions en néerlandais et en Anglais. Le site n'est pas encore officiellement publié.",
-    site: "https://new.amazone.be/",
+    site: "https://amazone.be/",
   },
   {
     id: 7,
@@ -80,11 +81,39 @@ const ProjectsData = [
   {
     id: 8,
     title: "Masu Photography",
-    subtitle: "Éditeur de code avec React",
+    subtitle: "Protfolio d'un photographe de cave diving",
     languages: [WP],
     presentation:
-      "Masu, un photographe cave diving, m'a engagée pour créer son portfolio. Ce projet m'a permis de mettre en avant son travail à travers un site web dédié. Nous avons voulu présenter de manière immersive et attrayante sa passion et son talent pour la photographie sous-marine. Chaque photo reflète son expertise et sa capacité à capturer la beauté de ces grottes, offrant aux visiteurs une expérience visuelle unique.",
+      "Masu, un photographe de cave diving, m'a engagée pour créer son portfolio. Ce projet m'a permis de mettre en avant son travail à travers un site web dédié. Nous avons voulu présenter de manière immersive et attrayante sa passion et son talent pour la photographie sous-marine. Chaque photo reflète son expertise et sa capacité à capturer la beauté de ces grottes, offrant aux visiteurs une expérience visuelle unique.",
     site: "https://masu.photography",
+  },
+  {
+    id: 9,
+    title: "La Valdomi",
+    subtitle: "Location en ligne d'un gîte à Graveline",
+    languages: [WP],
+    presentation:
+      "La Valdomi est un gîte à Graveline, à deux pas de la plage. Ce site a été réalisé pour les propriétaires du gîte. Il s'agit d'une plateforme de location en ligne.",
+    site: "https://lavaldomi.com",
+  },
+
+  {
+    id: 10,
+    title: "Ticket Reservation System",
+    subtitle: "Système de reservation de billets",
+    languages: [JAVA],
+    presentation:
+      "Ce projet est un système de réservation de billets pour des événements. Il permet la création, la mise à jour, la suppression et la gestion des clients, des événements et des billets.",
+    github: "https://github.com/LucieRg/BilletterieApp",
+  },
+  {
+    id: 11,
+    title: "BankApp",
+    subtitle: "Système de reservation de billets",
+    languages: [JAVA],
+    presentation:
+      "Cette application bancaire permet de gérer les comptes bancaires d'un client. Elle permet de créer différents types de comptes, de réaliser des dépôts et des retraits, et d'afficher les opérations et les soldes des comptes.",
+    github: "https://github.com/LucieRg/BilletterieApp",
   },
 ];
 

@@ -30,7 +30,7 @@ export default function About() {
                   .callFunction(() => {})
                   .typeString(" Je suis Lucie Rogé,")
                   .callFunction(() => {})
-                  .typeString(" <br /> développeuse front-end.")
+                  .typeString(" <br /> développeuse full stack.")
                   .start();
               }}
             />

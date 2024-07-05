@@ -4,7 +4,7 @@ import Modale from "../Components/Modale";
 import ProjectCard from "../Components/ProjectCard";
 import ProjectsData from "../Datas/ProjectsDatas";
 import "../index.scss";
-import GitHubIcon from "../Assets/logos/github.svg";
+import GitHubIcon from "../Assets/icones-projects/github.svg";
 
 export default function Projets() {
   const [modalIsOpen, setIsOpen] = useState(false);
