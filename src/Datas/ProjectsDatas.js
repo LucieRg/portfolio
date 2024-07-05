@@ -113,7 +113,7 @@ const ProjectsData = [
     languages: [JAVA],
     presentation:
       "Cette application bancaire permet de gérer les comptes bancaires d'un client. Elle permet de créer différents types de comptes, de réaliser des dépôts et des retraits, et d'afficher les opérations et les soldes des comptes.",
-    github: "https://github.com/LucieRg/BilletterieApp",
+    github: "https://github.com/LucieRg/BanqueApp",
   },
 ];
 
