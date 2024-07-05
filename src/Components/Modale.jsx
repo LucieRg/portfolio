@@ -22,7 +22,7 @@ const Modale = ({ isOpen, onRequestClose, project }) => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "space-between",
-            backgroundColor: "rgba(24, 5, 37, 0.9)", // Semi-transparent background
+            backgroundColor: "rgba(24, 5, 37, 0.9)",
             borderRadius: "25px",
             border: "none",
             padding: "20px",
@@ -31,7 +31,7 @@ const Modale = ({ isOpen, onRequestClose, project }) => {
             maxHeight: "80vh",
             overflowY: "auto",
             boxShadow: "0px 2px 6px #ffffff73",
-            position: "relative", // To position the close button correctly
+            position: "relative",
           },
         }}
       >
@@ -45,11 +45,8 @@ const Modale = ({ isOpen, onRequestClose, project }) => {
             right: "10px",
           }}
         ></i>
-
-        <p className="modale-txt">
-          <span className="bold-text">Présentation</span> <br />
-          {project.presentation}
-        </p>
+        <h2 className="modale-title">{project.title}</h2>
+        <p className="modale-txt">{project.presentation}</p>
 
         <div className="icon-position">
           {project.github && (

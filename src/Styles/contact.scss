@@ -1,6 +1,5 @@
 .contact {
   margin-left: 112px;
-  margin-top: 100px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,7 +7,6 @@
   opacity: 0;
   max-width: 1440px;
   margin: auto;
-  margin-bottom: 300px;
   &.animated {
     opacity: 1;
     transform: translateY(20px);
@@ -16,7 +14,6 @@
   }
   h2 {
     margin-left: 112px;
-    margin-top: 400px;
   }
 }
 
