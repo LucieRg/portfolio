@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/footer.scss";
-import GitHubIcon from "../Assets/logos/github.svg";
+import GitHubIcon from "../Assets/icones-projects/github.svg";
 import LINKEDIN from "../Assets/logos/linkedin.svg";
 
 const contactMethods = [
