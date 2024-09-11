@@ -1,3 +1,48 @@
+# My Portfolio
+
+Welcome to the repository of my personal portfolio developed with React and Vite.js. This portfolio showcases my projects, skills, and professional background.
+
+## Overview
+
+This portfolio is designed to highlight my projects and skills. It also includes a contact section to facilitate communication.
+
+## Features
+
+- **Personal Introduction**: Overview of my background, biography, and skills.
+- **Skills**: List of the technologies I am proficient in.
+- **Projects**: Display of completed projects with descriptions, technologies used, and links to repositories or demos.
+- **Contact**: A form to get in touch with me directly.
+- **Responsive Design**: Optimized for use on desktops, tablets, and mobile devices.
+
+## Technologies
+
+Here are the main technologies used to develop this portfolio:
+
+- **Vite.js**: Fast build tool for developing React projects.
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: Application routing management.
+- **Styled-components**: Tool for CSS-in-JS styling.
+- **EmailJS**: For sending messages through the contact form.
+- **Vercel**: Hosting and deployment.
+
+## Installation
+
+### Prerequisites
+
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn**
+
+### Steps
+
+```bash
+npm install 
+```
+```bash
+npm run dev 
+```
+
+-----
+
 # Mon Portfolio
 
 Bienvenue sur le repository de mon portfolio personnel développé avec React et Vite.js. Ce portfolio présente mes projets, mes compétences et mon parcours professionnel.
