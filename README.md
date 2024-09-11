@@ -10,7 +10,7 @@ Ce portfolio est conçu pour mettre en avant mes projets et compétences. Il inc
 
 - **Présentation personnelle** : Introduction à mon parcours, ma biographie et mes compétences.
 - **Compétences** : Liste des technologies que je maîtrise.
-- - **Projets** : Affichage des projets réalisés avec une description, les technologies utilisées et les liens vers les dépôts ou les démos.
+- **Projets** : Affichage des projets réalisés avec une description, les technologies utilisées et les liens vers les dépôts ou les démos.
 - **Contact** : Formulaire permettant de me contacter directement.
 - **Responsive Design** : Adapté pour une utilisation sur ordinateurs, tablettes et mobiles.
 
