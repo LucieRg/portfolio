@@ -8,7 +8,7 @@ import WP from "../Assets/icones-projects/wp.svg";
 import TW from "../Assets/icones-projects/tw.svg";
 import JAVA from "../Assets/icones-projects/java.svg";
 import TS from "../Assets/icones-projects/ts.svg"
-import ANGULAR from "../Assets/icones-projects/angular"
+import ANGULAR from "../Assets/icones-projects/angular.svg"
 
 const ProjectsData = [
   // // {
