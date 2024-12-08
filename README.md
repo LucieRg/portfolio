@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository of my personal portfolio developed with React and Vite.js. This portfolio showcases my projects, skills, and professional background.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This portfolio is designed to highlight my projects and skills. It also includes a contact section to facilitate communication.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Personal Introduction**: Overview of my background, biography, and skills.
+- **Skills**: List of the technologies I am proficient in.
+- **Projects**: Display of completed projects with descriptions, technologies used, and links to repositories or demos.
+- **Contact**: A form to get in touch with me directly.
+- **Responsive Design**: Optimized for use on desktops, tablets, and mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+Here are the main technologies used to develop this portfolio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Vite.js**: Fast build tool for developing React projects.
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: Application routing management.
+- **Styled-components**: Tool for CSS-in-JS styling.
+- **EmailJS**: For sending messages through the contact form.
+- **Vercel**: Hosting and deployment.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steps
 
-### `npm run eject`
+```bash
+npm install 
+```
+```bash
+npm run dev 
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-----
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Mon Portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bienvenue sur le repository de mon portfolio personnel développé avec React et Vite.js. Ce portfolio présente mes projets, mes compétences et mon parcours professionnel.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Aperçu
 
-## Learn More
+Ce portfolio est conçu pour mettre en avant mes projets et compétences. Il inclut également une section de contact pour faciliter la prise de contact.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Fonctionnalités
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Présentation personnelle** : Introduction à mon parcours, ma biographie et mes compétences.
+- **Compétences** : Liste des technologies que je maîtrise.
+- **Projets** : Affichage des projets réalisés avec une description, les technologies utilisées et les liens vers les dépôts ou les démos.
+- **Contact** : Formulaire permettant de me contacter directement.
+- **Responsive Design** : Adapté pour une utilisation sur ordinateurs, tablettes et mobiles.
 
-### Code Splitting
+## Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Voici les principales technologies utilisées pour développer ce portfolio :
 
-### Analyzing the Bundle Size
+- **Vite.js** : Outil de build rapide pour le développement de projets en React.
+- **React** : Bibliothèque JavaScript pour la création d'interfaces utilisateur.
+- **React Router** : Gestion des routes de l'application.
+- **Styled-components** : Outil pour le stylage CSS en JavaScript.
+- **EmailJS** : Pour l'envoi de messages via le formulaire de contact.
+- **Vercel** : Hébergement et déploiement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Installation
 
-### Making a Progressive Web App
+### Prérequis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Node.js** (version 14 ou supérieure)
+- **npm** ou **yarn*
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install 
+```
+```bash
+npm run dev 
+```
