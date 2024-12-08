@@ -7,38 +7,40 @@ import SASS from "../Assets/icones-projects/sass.svg";
 import WP from "../Assets/icones-projects/wp.svg";
 import TW from "../Assets/icones-projects/tw.svg";
 import JAVA from "../Assets/icones-projects/java.svg";
+import TS from "../Assets/icones-projects/ts.svg"
+import ANGULAR from "../Assets/icones-projects/angular"
 
 const ProjectsData = [
-  {
-    id: 1,
-    title: "Booki",
-    subtitle: "Site d'hébergement de vacances",
-    languages: [HTML, CSS],
-    presentation:
-      "Booki est un projet web qui vise à simplifier la recherche d'hébergements et d'activités dans la ville de choix de l'utilisateur. Mon rôle en tant que développeuse Front-End était de prendre les maquettes fournies par l'UI designer, et de les intégrer en utilisant HTML et CSS. Le principal défi était de rendre le projet compatible avec diverses tailles d'écran tout en respectant les spécifications de conception. J'ai utilisé flexbox pour créer une mise en page adaptable, garantissant ainsi une expérience utilisateur uniforme sur tous les appareils. J'ai travaillé en étroite collaboration avec les concepteurs pour intégrer harmonieusement les éléments visuels dans la mise en page, assurant ainsi une présentation esthétique et fonctionnelle sur les écrans larges de bureau, les tablettes et les smartphones.",
-    github: "https://github.com/LucieRg/Booki",
-    site: "https://lucierg.github.io/Booki/",
-  },
-  {
-    id: 2,
-    title: "Oh My Food!",
-    subtitle: "Startup de restauration",
-    languages: [HTML, CSS],
-    presentation:
-      "OhMyFood est une startup de restauration qui souhaite développer un site répertoriant les menus de restaurants gastronomiques. Mon rôle en tant que développeuse était de créer le site en respectant les maquettes fournies par l'équipe UX designer. Le projet a été conçu en adoptant une approche 'mobile first', ce qui signifie que j'ai priorisé l'optimisation de l'expérience utilisateur sur les appareils mobiles. Cette stratégie garantit que les utilisateurs bénéficient d'une expérience fluide et réactive, quel que soit l'appareil qu'ils utilisent, allant des smartphones aux ordinateurs de bureau. De plus, pour rendre le site encore plus attrayant, j'ai intégré des animations fluides et naturelles. Ces animations ont été soigneusement créées pour améliorer l'interactivité du site, offrant ainsi aux visiteurs une expérience engageante et immersive.",
-    github: "https://github.com/LucieRg/Ohmyfood",
-    site: "https://lucierg.github.io/Ohmyfood/",
-  },
-  {
-    id: 3,
-    title: "Sophie Bluel",
-    subtitle: "Portfolio d'une architecte d'intérieur",
-    languages: [HTML, CSS, JS],
-    presentation:
-      "En tant que développeuse front-end, j'ai aidé une équipe à finaliser le nouveau site internet d'une architecte d'intérieur. J'étais chargée de développer plusieurs fonctionnalités clés pour le site. Mon rôle a inclus la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux. Tout au long du projet, nous avons utilisé un tableau Kanban détaillé pour organiser notre travail de manière efficace.",
-    github: "https://github.com/LucieRg/Sophie-Buel-portfolio",
-    site: "",
-  },
+  // // {
+  // //   id: 1,
+  // //   title: "Booki",
+  // //   subtitle: "Site d'hébergement de vacances",
+  // //   languages: [HTML, CSS],
+  // //   presentation:
+  // //     "Booki est un projet web qui vise à simplifier la recherche d'hébergements et d'activités dans la ville de choix de l'utilisateur. Mon rôle en tant que développeuse Front-End était de prendre les maquettes fournies par l'UI designer, et de les intégrer en utilisant HTML et CSS. Le principal défi était de rendre le projet compatible avec diverses tailles d'écran tout en respectant les spécifications de conception. J'ai utilisé flexbox pour créer une mise en page adaptable, garantissant ainsi une expérience utilisateur uniforme sur tous les appareils. J'ai travaillé en étroite collaboration avec les concepteurs pour intégrer harmonieusement les éléments visuels dans la mise en page, assurant ainsi une présentation esthétique et fonctionnelle sur les écrans larges de bureau, les tablettes et les smartphones.",
+  // //   github: "https://github.com/LucieRg/Booki",
+  // //   site: "https://lucierg.github.io/Booki/",
+  // // },
+  // {
+  //   id: 2,
+  //   title: "Oh My Food!",
+  //   subtitle: "Startup de restauration",
+  //   languages: [HTML, CSS],
+  //   presentation:
+  //     "OhMyFood est une startup de restauration qui souhaite développer un site répertoriant les menus de restaurants gastronomiques. Mon rôle en tant que développeuse était de créer le site en respectant les maquettes fournies par l'équipe UX designer. Le projet a été conçu en adoptant une approche 'mobile first', ce qui signifie que j'ai priorisé l'optimisation de l'expérience utilisateur sur les appareils mobiles. Cette stratégie garantit que les utilisateurs bénéficient d'une expérience fluide et réactive, quel que soit l'appareil qu'ils utilisent, allant des smartphones aux ordinateurs de bureau. De plus, pour rendre le site encore plus attrayant, j'ai intégré des animations fluides et naturelles. Ces animations ont été soigneusement créées pour améliorer l'interactivité du site, offrant ainsi aux visiteurs une expérience engageante et immersive.",
+  //   github: "https://github.com/LucieRg/Ohmyfood",
+  //   site: "https://lucierg.github.io/Ohmyfood/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Sophie Bluel",
+  //   subtitle: "Portfolio d'une architecte d'intérieur",
+  //   languages: [HTML, CSS, JS],
+  //   presentation:
+  //     "En tant que développeuse front-end, j'ai aidé une équipe à finaliser le nouveau site internet d'une architecte d'intérieur. J'étais chargée de développer plusieurs fonctionnalités clés pour le site. Mon rôle a inclus la création de la page de présentation des travaux de l'architecte, avec des options de filtrage par catégorie, le développement de la page de connexion sécurisée de l'administrateur en utilisant JWT (JSON Web Tokens) pour l'authentification, ainsi que la conception d'une modale permettant à l'architecte d'ajouter ou de supprimer des projets. J'ai utilisé JavaScript pour générer dynamiquement les éléments en communiquant avec une API, ce qui a permis de récupérer, ajouter et supprimer des travaux. Tout au long du projet, nous avons utilisé un tableau Kanban détaillé pour organiser notre travail de manière efficace.",
+  //   github: "https://github.com/LucieRg/Sophie-Buel-portfolio",
+  //   site: "",
+  // },
   {
     id: 4,
     title: "Kasa",
@@ -114,6 +116,16 @@ const ProjectsData = [
     presentation:
       "Cette application bancaire permet de gérer les comptes bancaires d'un client. Elle permet de créer différents types de comptes, de réaliser des dépôts et des retraits, et d'afficher les opérations et les soldes des comptes.",
     github: "https://github.com/LucieRg/BanqueApp",
+  },
+
+  {
+    id: 12,
+    title: "Recipify",
+    subtitle: "Projet final de la formation développeur fullstack Java",
+    languages: [JAVA, ANGULAR, TS],
+    presentation:
+    "Créer une application web permettant aux utilisateurs de générer des recettes à partir des ingrédients disponibles dans leur réfrigérateur. L'application doit inclure des fonctionnalités pour ajuster les recettes en fonction du nombre de couverts, des calories par plat, et d'autres critères diététiques ou d'allergies.",
+    github: "https://github.com/JulienBrancourt/Recipify_app",
   },
 ];
 
