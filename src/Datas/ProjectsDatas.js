@@ -121,7 +121,7 @@ const ProjectsData = [
   {
     id: 12,
     title: "Recipify",
-    subtitle: "Projet final de la formation développeur fullstack Java",
+    subtitle: "Projet final formation",
     languages: [JAVA, ANGULAR, TS],
     presentation:
     "Créer une application web permettant aux utilisateurs de générer des recettes à partir des ingrédients disponibles dans leur réfrigérateur. L'application doit inclure des fonctionnalités pour ajuster les recettes en fonction du nombre de couverts, des calories par plat, et d'autres critères diététiques ou d'allergies.",
