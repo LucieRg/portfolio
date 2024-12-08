@@ -13,22 +13,23 @@ export default function Contact() {
   const [animate, setAnimate] = useState(false);
   const sendEmail = (data) => {
     emailjs
-      .sendForm(
-        "service_23ypn6v",
-        "template_0iywzca",
-        form.current,
-        "J-tLuBp1972DpUMNm"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          reset();
-          setIsSubmitted(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        .sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            form.current,
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        )
+        .then(
+            (result) => {
+              console.log("Email envoyé :", result.text);
+              reset();
+              setIsSubmitted(true);
+            },
+            (error) => {
+              console.error("Erreur lors de l'envoi :", error.text);
+            }
+        );
+
   };
 
   useEffect(() => {
